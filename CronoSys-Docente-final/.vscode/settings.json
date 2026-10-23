@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.vmArgs": "--module-path \"${workspaceFolder}/target/dependency\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED",
+    "workbench.iconTheme": "material-icon-theme"
+    // Si VS Code no detecta tu JDK 25, descomenta y ajusta la ruta:
+    // "java.configuration.runtimes": [
+    //     { "name": "JavaSE-25", "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.x-hotspot", "default": true }
+    // ],
+    // "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.x-hotspot"
+}

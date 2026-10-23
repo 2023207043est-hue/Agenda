@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Compás</title>
+  <desc>La brújula de Compás: un anillo con una abertura por donde sale la aguja.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2884F"/>
+      <stop offset="1" stop-color="#C2451A"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="71.7" fill="url(#g)"/>
+  <!-- El anillo de la brújula, con la abertura arriba -->
+  <path d="M 83.28 64.13 A 78 78 0 1 0 172.72 64.13" fill="none" stroke="#fff" stroke-width="26" stroke-linecap="round"/>
+  <!-- La aguja: dos mitades, como en una brújula real -->
+  <path d="M 128 58 L 112 128 L 128 128 Z" fill="#FFD9C2"/>
+  <path d="M 128 58 L 144 128 L 128 128 Z" fill="#fff"/>
+  <circle cx="128" cy="128" r="12" fill="#fff"/>
+</svg>

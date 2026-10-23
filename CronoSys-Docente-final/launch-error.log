@@ -1,0 +1,11 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in module javafx.graphics (file:/C:/Users/JOAN/Desktop/hola/CronoSys-Docente-corregido/CronoSys-Docente-final/target/dependency/javafx-graphics-25.0.1-win.jar)
+WARNING: Use --enable-native-access=javafx.graphics to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in module org.xerial.sqlitejdbc (file:/C:/Users/JOAN/Desktop/hola/CronoSys-Docente-corregido/CronoSys-Docente-final/target/dependency/sqlite-jdbc-3.50.2.0.jar)
+WARNING: Use --enable-native-access=org.xerial.sqlitejdbc to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+^C

@@ -1,0 +1,36 @@
+# Binarios y dependencias
+target/
+*.jar
+*.war
+*.class
+
+# Base de datos local (se genera sola al arrancar)
+*.db
+*.db-journal
+*.sqlite
+
+# Maven
+.mvn/
+!.mvn/wrapper/*
+
+# IDEs
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentos generados locales (opcional)
+/tool-output/

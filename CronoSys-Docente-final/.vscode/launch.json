@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CronoSys - Java 25",
+            "request": "launch",
+            "mainClass": "com.agendapersonal.Main",
+            "projectName": "cronosys",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--module-path \"${workspaceFolder}/target/dependency\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED",
+            "preLaunchTask": "Maven: preparar CronoSys"
+        }
+    ]
+}
